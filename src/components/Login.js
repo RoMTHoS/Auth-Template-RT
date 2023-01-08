@@ -108,7 +108,7 @@ export default function Login() {
               <div className="text-sm text-center">
                 You don't have an account ?&ensp;
                 <a
-                  href="#"
+                  href="/register"
                   className="font-medium text-indigo-600 hover:text-indigo-500"
                 >
                   Register
