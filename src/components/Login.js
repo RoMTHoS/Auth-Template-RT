@@ -1,18 +1,4 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
-export default function SignIn() {
+export default function Login() {
   return (
     <>
       {/*
@@ -118,6 +104,15 @@ export default function SignIn() {
                 >
                   Sign in
                 </button>
+              </div>
+              <div className="text-sm text-center">
+                You don't have an account ?&ensp;
+                <a
+                  href="#"
+                  className="font-medium text-indigo-600 hover:text-indigo-500"
+                >
+                  Register
+                </a>
               </div>
             </form>
 
