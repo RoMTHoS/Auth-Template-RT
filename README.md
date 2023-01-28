@@ -1,1 +1,1 @@
-# A simple auth template with react and Tailwind
+# A simple Authentication Template with React and Tailwind
