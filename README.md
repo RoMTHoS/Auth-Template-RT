@@ -1,1 +1,1 @@
-# Authentication Template with React and Tailwind
+# Authentication Template with React and Tailwind.
